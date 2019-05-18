@@ -24,18 +24,6 @@ module.exports = {
         trackingId: config.googleAnalyticsID,
       },
     },
-    {
-      resolve: `gatsby-source-strapi`,
-      options: {
-        apiURL: `http://localhost:1337`,
-        contentTypes: [
-          `project`,
-          `user`,
-          `category`
-        ],
-        queryLimit: 1000
-      }
-    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
