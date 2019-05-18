@@ -24,6 +24,18 @@ module.exports = {
         trackingId: config.googleAnalyticsID,
       },
     },
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: `https://evelasko-portfolio-cms.herokuapp.com`,
+        contentTypes: [
+          `project`,
+          `user`,
+          `category`
+        ],
+        queryLimit: 1000
+      }
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
