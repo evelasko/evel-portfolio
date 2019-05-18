@@ -1,23 +1,23 @@
-import React from 'react'
-import styled from 'styled-components'
-import tw from 'tailwind.macro'
-import { Parallax } from 'react-spring/renderprops-addons.cjs'
-
+import React from 'react';
+import { Parallax } from 'react-spring/renderprops-addons.cjs';
+import styled from 'styled-components';
+import tw from 'tailwind.macro';
 // Components
-import Layout from '../components/Layout'
-import ProjectCard from '../components/ProjectCard'
-
+import Layout from '../components/Layout';
+import ProjectCard from '../components/ProjectCard';
 // Elements
-import Inner from '../elements/Inner'
-import { Title, BigTitle, Subtitle } from '../elements/Titles'
-
+import Inner from '../elements/Inner';
+import { BigTitle, Subtitle, Title } from '../elements/Titles';
+import avatar from '../images/avatar.jpg';
+import About from '../views/About';
+import Contact from '../views/Contact';
 // Views
-import Hero from '../views/Hero'
-import Projects from '../views/Projects'
-import About from '../views/About'
-import Contact from '../views/Contact'
+import Hero from '../views/Hero';
+import Projects from '../views/Projects';
 
-import avatar from '../images/avatar.jpg'
+
+
+
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -63,9 +63,9 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello! <br /> I'm Enrique Velasco
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>a <strong>designer</strong> and <strong>developer</strong> doing the best to stand out in a sea of ordinary</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>

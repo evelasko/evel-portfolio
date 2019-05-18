@@ -1,8 +1,10 @@
-import React from 'react'
-import GlobalStyle from '../styles/global'
-import SEO from './SEO'
-import 'typeface-cantata-one'
-import 'typeface-open-sans'
+import React from 'react';
+import 'typeface-megrim';
+// import 'typeface-cantata-one'
+import 'typeface-montserrat';
+import GlobalStyle from '../styles/global';
+import SEO from './SEO';
+// import 'typeface-open-sans'
 
 const Layout = () => (
   <>

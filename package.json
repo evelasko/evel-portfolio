@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+  "name": "evel-portfolio",
+  "description": "Portfolio showcase of Enrique Velasco's works and projects",
   "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "Enrique Velasco <enrique.prez.velasco@gmail.com> (evel.es) LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -16,6 +16,7 @@
     "gatsby-plugin-sharp": "^2.0.37",
     "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-source-strapi": "^0.0.8",
     "gatsby-transformer-sharp": "^2.1.19",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -26,11 +27,12 @@
     "tailwind.macro": "^0.5.10",
     "tailwindcss": "^0.7.4",
     "typeface-cantata-one": "^0.0.72",
+    "typeface-megrim": "^0.0.72",
+    "typeface-montserrat": "^0.0.54",
     "typeface-open-sans": "^0.0.54"
   },
   "keywords": [
     "gatsby",
-    "starter",
     "portfolio"
   ],
   "scripts": {
@@ -53,11 +55,8 @@
     "prettier": "^1.17.0"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/evelasko/evel-portfolio",
     "type": "git"
   },
-  "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
-  },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "https://evel.es"
 }
