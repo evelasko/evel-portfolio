@@ -1,5 +1,5 @@
 const lerp = (a, b, n) => (1 - n) * a + n * b;
-const body = document.body;
+const body = typeof document !== "undefined" ? document.body : {};
 const getMousePos = (e) => {
     let posx = 0;
     let posy = 0;
